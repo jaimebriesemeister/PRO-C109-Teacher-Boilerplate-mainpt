@@ -89,7 +89,7 @@ while True:
 
     cv2.imshow("Controlador de Midia", image)
 
-    # Saia da tela ao pressionar a barra de espaços
+    # Saia da tela ao pressionar a barra de espaço
     key = cv2.waitKey(1)
     if key == 27:
         break
